@@ -35,7 +35,7 @@ int main(void) {
 
 	delete animal[0];
 	delete animal[1];
-
+	
 	return 0;
 }
 
