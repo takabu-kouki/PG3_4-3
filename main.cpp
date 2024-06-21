@@ -1,4 +1,4 @@
-ï»¿//èª¬æ˜ã‚¹ãƒ©ã‚¤ãƒ‰ã‚’å‚è€ƒã«ã€ç¾å®Ÿä¸–ç•Œã®ãƒãƒªãƒ•ã‚©ãƒ¼ã‚ºãƒ ã‚’åå‰ã«ã—ã¦ãã ã•ã„
+//à–¾ƒXƒ‰ƒCƒh‚ğQl‚ÉAŒ»À¢ŠE‚Ìƒ|ƒŠƒtƒH[ƒYƒ€‚ğ–¼‘O‚É‚µ‚Ä‚­‚¾‚³‚¢
 
 #include <stdio.h>
 
@@ -6,7 +6,7 @@ class OYA
 {
 public:
 	virtual void Voice() {
-		printf("ã‚ã«ã¾ã‚‹Â¥n");
+		printf("‚ ‚É‚Ü‚é?n");
 	};
 };
 
@@ -14,15 +14,15 @@ class KoA : public OYA
 {
 public:
 	void Voice(){
-		printf("å­ä¾›Aã£ã™\n");
+		printf("q‹ŸA‚Á‚·\n");
 	};
 };
 
-class KoB : public OYAã€€
+class KoB : public OYA
 {
 public:
 	void Voice() {
-		printf("å­ä¾›Bã£ã™\n");
+		printf("q‹ŸB‚Á‚·\n");
 	};
 };
 
